@@ -1,5 +1,8 @@
 /* generated with mime-types-include.sh in the totem module, don't edit or
    commit in the caja module without filing a bug against totem */
+#ifndef __CAJA_AUDIO_MIME_TYPES_H__
+#define __CAJA_AUDIO_MIME_TYPES_H__
+
 static const char* audio_mime_types[] =
 {
     "audio/3gpp",
@@ -44,3 +47,6 @@ static const char* audio_mime_types[] =
     "audio/x-xm",
     "application/x-flac",
 };
+
+#endif	/* __CAJA_AUDIO_MIME_TYPES_H__ */
+
